@@ -1,3 +1,3 @@
-export const defaultHandler = (req, res, url, payload) => {
-  res.json({ name: "method not implemented" });
-};
+export default function defaultHandler (req, res, url, payload) {
+  res.json({ name: 'Method not implemented' })
+}
