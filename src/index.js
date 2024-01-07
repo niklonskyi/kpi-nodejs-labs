@@ -1,8 +1,8 @@
 import * as http from "node:http";
-import { router } from "./src/router.js";
-import { defaultHandler } from "./src/defaultHandler.js";
-import { helpers } from "./src/helpers.js";
-import { safeJSON } from "./src/utils.js";
+import { router } from "./router.js";
+import { defaultHandler } from "./defaultHandler.js";
+import { helpers } from "./helpers.js";
+import { safeJSON } from "./utils.js";
 
 const proccessedContentTypes = {
   "text/html": (text) => text,
